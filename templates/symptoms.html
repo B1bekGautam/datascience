@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Symptoms</title>
+</head>
+<body style="background-color: white;">
+  <h1>List of Symptoms</h1>
+  <p>Out dataset contains following symptoms. You have to choose among followings:</p>
+    <ul>
+        {% for symptom, index in symptoms_dict.items() %}
+            <li>{{ symptom }} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
