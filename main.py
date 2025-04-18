@@ -140,9 +140,7 @@ def about():
 def contact():
     return render_template('contact.html')
 
-@app.route('/blog')
-def blog():
-    return render_template('blog.html')
+
 
 @app.route('/developer')
 def developer():

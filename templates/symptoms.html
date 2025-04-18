@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title>Symptoms</title>
 </head>
-<body style="background-color: white;">
+<body style="background-color: yellow;">
   <h1>List of Symptoms</h1>
-  <p>Out dataset contains following symptoms. You have to choose among followings:</p>
-    <ul>
+  <h2><p>Out dataset contains following symptoms. You have to choose among followings:</p></h2>
+    <h3><ul>
         {% for symptom, index in symptoms_dict.items() %}
             <li>{{ symptom }} </li>
         {% endfor %}
-    </ul>
+    </ul></h3>
 </body>
 </html>
